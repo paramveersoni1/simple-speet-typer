@@ -1,0 +1,99 @@
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(11deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: black;
+    text-align: center;
+  }
+    
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+    
+  .heading {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #fff;
+}
+    
+  .header {
+    display: flex;
+    align-items: center;
+  }
+    
+  .timer, .errors, .accuracy, .cpm, .wpm {
+    background-color: black;
+    height: 60px;
+    width: 70px;
+    color: #fff;
+    font-family: monospace;
+    margin: 8px;
+    padding: 20px;
+   
+    box-shadow: black 5px 8px 5px;
+  }
+    
+  .cpm, .wpm  {
+    display: none;
+  }
+    
+  .header_text {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+    
+  .curr_time, .curr_errors,
+  .curr_accuracy, .curr_cpm,
+  .curr_wpm {
+    font-size: 2.75rem;
+  }
+    
+  .quote {
+    background-color: #000;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 20px 0;
+    font-family: revert;
+    
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+}
+
+  .input_area {
+    background-color: #f5f5c6;
+    height: 80px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+  }
+    
+  .restart_btn {
+    display: none;
+    background-color: black;
+    font-size: 1.5rem;
+    border-radius: 56%;
+    color: #fff;
+    padding: 13px 30px;
+    border: 0px;
+}
+
+
+    
+  .incorrect_char {
+    color: red;
+    text-decoration: underline;
+  }
+    
+  .correct_char {
+    color: darkgreen;
+  }
